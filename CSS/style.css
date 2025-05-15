@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1a3b5d, #cccccc); /* azul escuro -> cinza */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #0d2a44;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.navbar ul li button:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.section input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.section button {
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.section button:hover {
+  background-color: #0b5ed7;
+}
+
+#translationResult {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ffeb3b;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.footer {
+  background-color: #0d2a44;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
